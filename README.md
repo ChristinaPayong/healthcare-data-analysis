@@ -34,9 +34,9 @@ Durée de séjour, coût total, score de satisfaction, réadmission
 | 4 | Segmentation patients par tranche d'âge et assurance | CASE WHEN pour segmentation |
 | 5 | Top 3 traitements les plus coûteux par département | Vues SQL, RANK() OVER PARTITION BY |
 | 6 | Alerte satisfaction faible | Filtres multi-tables, tri composite |
-| 7 | Dashboard KPIs global | Agrégations multiples en une seule requête |
+| 7 | Requête de synthèse — KPIs globaux | Agrégations multiples en une seule requête |
 
-## KPIs suivis
+## KPIs calculés
 
 - Nombre total d'hospitalisations et de patients uniques
 - Durée moyenne de séjour
@@ -60,7 +60,7 @@ healthcare-data-analysis/
 │
 ├── README.md
 └── sql/
-└── healthcare_analysis.sql   # Schéma + données + requêtes analytiques
+└── healthcare_analysis.sql
 
 ## Comment exécuter
 
